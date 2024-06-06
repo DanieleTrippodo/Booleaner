@@ -7,6 +7,27 @@
 body{
     max-width: 1200px;
     margin: 0 auto;
+    background-color: white;
+    animation: gigi 5s linear infinite;
+}
+
+@keyframes gigi{
+    0%,
+    100%{
+        background-color: white;
+    }
+    25%{
+        background-color: rgb(132, 0, 255);
+    }
+    75%{
+        background-color: brown;
+    }
+    
+}
+
+.dimension{
+    width: 500px;
+    aspect-ratio: 1/1;
 }
 main{
     margin: 5px;
@@ -14,7 +35,7 @@ main{
 
 
 .bg-header{
-    background-color: rgb(78, 160, 255);
+    background-color: rgb(57, 214, 36);
     background-image: url(../img/pattern.png);
     background-size: 30%;
     width: 100%;
