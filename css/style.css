@@ -1,0 +1,129 @@
+*{
+    box-sizing:border-box;
+}
+
+/* header */
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main{
+    margin: 5px;
+}
+
+
+.bg-header{
+    background-color: rgb(78, 160, 255);
+    background-image: url(../img/pattern.png);
+    background-size: 30%;
+    width: 100%;
+}
+
+.bg-header > img{
+    padding-top: 50px;
+    width: 15%;
+}
+
+
+/* prima section del main */
+
+.title-article > h1{
+    /* width: 80%; */
+    font-size: 2.6rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.text-title-color{
+    color: rgb(139, 138, 138);
+    font-size: 20px;
+    margin-bottom: 0px;
+
+}
+
+.text-title-color > strong{
+    color: rgb(94, 192, 236);
+    
+}
+
+.text-title-color-font{
+    font-size: 13px;
+    color: rgb(139, 138, 138);
+}
+
+
+
+/* seconda section del main */
+
+.padding-photo{
+    margin-top: 20px;
+}
+
+.sub-photo{
+    font-size: 13px;
+}
+
+
+/* quarta section del main */
+
+.list-ul-padding{
+    padding-left: 20px;
+}
+
+
+/* quinta section dal main table */
+.table-cont{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+thead{
+    background-color: rgb(32, 169, 229);
+    height: 100%;
+    color: white;
+}
+
+tbody{
+    height: 100%;
+}
+
+.color-rows{
+    background-color: rgb(177, 229, 242);
+}
+
+.columns-three{
+    width: 50%;
+}
+
+/* immagini con scritte */
+
+.text-title-color-tree{
+    color: rgb(139, 138, 138);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.img-written-one{
+    background-image: url(../img/monitor.jpg);
+    color: white;
+    font-size: 1.5em;
+    width: 310px;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 12px;
+}
+
+.img-written-two{
+    background-image: url(../img/graph.jpg);
+    color: white;
+    font-size: 1.5em;
+    width: 310px;
+    height: 200px;
+    padding: 12px;
+}
